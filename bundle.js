@@ -4716,7 +4716,7 @@ module.exports = angular.module('sts').config(['$locationProvider', '$urlRouterP
 
       .state({
         name: 'survey',
-        url: '/survey/:id',
+        url: '/:id',
         noAuth: true,
         hideNavbar: true,
         hideHeader: true,
