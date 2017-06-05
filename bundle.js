@@ -4730,7 +4730,8 @@ module.exports = angular.module('sts').config(['$locationProvider', '$urlRouterP
         }
       });
 
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(false);
+  $locationProvider.hashPrefix('!');
 
 }]);
 
